@@ -57,7 +57,7 @@ const Ecommerce = () => {
           ))}
         </div>
       </div>
-      {/* Revenue updates */}
+      {/* Rev sparkline */}
       {/* <div className="flex gap-10 flex-wrap justify-center"> */}
       <div>
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w:780">
@@ -108,6 +108,20 @@ const Ecommerce = () => {
                   color="blue"
                 />
               </div>
+              {/*Revenue updates*/}
+
+              <div className="mt-10">
+                <Button
+                  color="white"
+                  bgColor="blue"
+                  text="Download Report"
+                  borderRadius="10px"
+                />
+              </div>
+            </div>
+            {/* budget expense div */}
+            <div>
+              <Stacked width="320px" height="360px" />
             </div>
           </div>
         </div>
